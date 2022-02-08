@@ -93,11 +93,11 @@ namespace Calculator
             {
                 if (number2 == 0)
                 {
-                    Console.ForegroundColor=ConsoleColor.Red;
-                    Console.WriteLine("Division with 0"!);
-                    Console.ResetColor();
-                    return 0;
-                }
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("\nDivision with 0"!);
+                Console.ForegroundColor = Console.BackgroundColor;
+                return 0;
+            }
                 else
                  return number1 / number2;
                 
